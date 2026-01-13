@@ -30,7 +30,7 @@ Combines statement text with metadata using special markers:
 ### 2. TF-IDF Vectorization
 Converts text to 30,000 dimensional numerical feature vectors. Filters words appearing in less than 2 documents as well as words appearing in 90% of the documents (eg. "the", "a" and etc). 
 
-### Classification Models
+### 3. Classification Models
 ***6 Class Model*** 
 * Uses one vs rest strategy
 * Acheives 26.4% test accuracy
@@ -100,3 +100,44 @@ pants-fire       839 (8.2%)
 ```
 
 Relatively balanced dataset with slight under-representation of extreme lies.
+
+## Dataset Information
+
+**LIAR Dataset** (Wang, 2017)
+- **Size**: 12,791 political statements
+- **Source**: PolitiFact.com (2007-2016)
+- **Labels**: 6 fine-grained truthfulness levels
+- **Metadata**: Speaker, job, state, party, context, historical counts
+
+**Citation:**
+```bibtex
+@inproceedings{wang2017liar,
+  title={``Liar, Liar Pants on Fire'': A New Benchmark Dataset for Fake News Detection},
+  author={Wang, William Yang},
+  booktitle={Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+  year={2017}
+}
+
+## Contributing
+
+Contributions welcome! Areas of interest:
+- Feature engineering improvements
+- Alternative model architectures  
+- Visualization and analysis tools
+- Documentation and examples
+
+## License
+
+This project is licensed under the MIT License - see LICENSE file for details.
+
+## Acknowledgments
+
+- PolitiFact for original fact-checking work
+- William Yang Wang for creating and releasing the LIAR dataset
+- scikit-learn contributors for excellent ML tools
+
+---
+
+**If you found this project helpful, please give it a star!**
+
+**Questions or suggestions?** Open an issue or reach out!
