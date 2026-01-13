@@ -109,11 +109,11 @@ Relatively balanced dataset with slight under-representation of extreme lies.
 - **Labels**: 6 fine-grained truthfulness levels
 - **Metadata**: Speaker, job, state, party, context, historical counts
 
-**Citation:**
+### Citation (BibTeX)
 ```bibtex
-title={``Liar, Liar Pants on Fire'': A New Benchmark Dataset for Fake News Detection},
-  author={Wang, William Yang},
-  booktitle={Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
-year={2017}
+@inproceedings{wang2017liar,
+  title     = {“Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection},
+  author    = {William Yang Wang},
+  booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year      = {2017}
 }
-```
